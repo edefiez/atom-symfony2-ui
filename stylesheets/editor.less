@@ -1,3 +1,4 @@
+@import 'ui-variables';
 .editor-colors {
   background-color: @syntax-background-color;
   color: @syntax-text-color;
@@ -206,4 +207,13 @@
 }
 .punctuation.section.tag.twig {
   color: @keyword-color;
+}
+
+.select-list.popover-list {
+    background-color: @app-background-color;
+    border: 1px solid @syntax-result-marker-color;
+    li.selected {
+        background-color: @background-color-highlight;
+    }
+
 }
