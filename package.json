@@ -1,0 +1,11 @@
+{
+  "name": "atom-symfony2-ui",
+  "theme": "ui",
+  "version": "0.1.0",
+  "description": "Symfony2 theme for interface components",
+  "license": "MIT",
+  "repository": "https://github.com/edefiez/atom-symfony2-ui",
+  "engines": {
+    "atom": ">0.40.0"
+  }
+}
