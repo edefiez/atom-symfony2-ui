@@ -1,7 +1,7 @@
 {
   "name": "atom-symfony2-ui",
   "theme": "ui",
-  "version": "0.2.2",
+  "version": "1.0.0",
   "description": "Symfony2 theme for atom editor",
   "license": "MIT",
   "repository": "https://github.com/edefiez/atom-symfony2-ui",
