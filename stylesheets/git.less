@@ -6,3 +6,19 @@
 .status-modified { .text(warning); }
 .status-removed { .text(error); }
 .status-renamed { .text(success); }
+.editor {
+    .gutter {
+        .line-number.git-line-added {
+            border-left: 4px solid @text-color-info;
+        }
+        .line-number.git-line-modified {
+            border-left: 4px solid @text-color-warning;
+        }
+        .line-number.git-line-added {
+            border-left: 4px solid @text-color-info;
+        }
+        .line-number.git-line-added {
+            border-left: 4px solid @text-color-info;
+        }
+    }
+}
