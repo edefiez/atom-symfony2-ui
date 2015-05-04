@@ -1,6 +1,6 @@
 {
   "name": "atom-symfony2-ui",
-  "theme": "ui",
+  "theme": "syntax",
   "version": "1.2.1",
   "description": "Symfony2 theme for atom editor",
   "license": "MIT",
