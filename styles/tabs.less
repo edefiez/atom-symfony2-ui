@@ -25,7 +25,7 @@
     border-bottom: 1px solid @tab-bar-bottom-border-color;
   }
 
-  .tab {
+  .syntax--tab {
     position: relative;
     top: @tab-top-padding;
     max-width: @tab-max-width;
@@ -79,18 +79,18 @@
       }
     }
 
-    &.modified:not(:hover) .close-icon {
+    &.syntax--modified:not(:hover) .close-icon {
       right: 0;
       top: @tab-height/2 - @modified-icon-width/2 + 1px;
       width: @modified-icon-width;
       height: @modified-icon-width;
     }
 
-    &.modified:hover .close-icon:hover {
+    &.syntax--modified:hover .close-icon:hover {
       color: @text-color-highlight;
     }
 
-    .title{
+    .syntax--title{
       position: relative;
       z-index: 1;
       padding-right: 10px
@@ -101,7 +101,7 @@
     }
   }
 
-  .tab.active {
+  .syntax--tab.active {
     z-index: 1;
     color: @tab-active-color;
     box-shadow: inset -1px 1px 0 @tab-border-color, 4px -4px 4px rgba(0,0,0,.1);
@@ -125,11 +125,11 @@
     }
   }
 
-  .tab:hover {
+  .syntax--tab:hover {
     color: @tab-hover-color;
   }
 
-  .tab.active:hover .close-icon {
+  .syntax--tab.active:hover .close-icon {
     color: @text-color;
 
     &:hover {
@@ -137,7 +137,7 @@
     }
   }
 
-  .placeholder {
+  .syntax--placeholder {
     height: @tab-height + @tab-top-padding + @tab-bottom-border-height;
     &:after {
       top: @tab-height + @tab-top-padding + @tab-bottom-border-height;

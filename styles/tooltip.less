@@ -1,6 +1,6 @@
 @import "ui-variables";
 
-.tooltip {
+.syntax--tooltip {
   @tip-background-color: #fff;
   @tip-text-color: #333;
   white-space: nowrap;
@@ -12,7 +12,7 @@
     padding-left: 2px;
   }
 
-  &.in { opacity: 1; }
+  &.--in { opacity: 1; }
 
   .tooltip-inner {
     line-height: 19px;
@@ -23,7 +23,7 @@
     max-width: none;
   }
 
-  &.top .tooltip-arrow {
+  &.syntax--top .tooltip-arrow {
     border-top-color: @tip-background-color;
   }
   &.top-left .tooltip-arrow {
@@ -32,13 +32,13 @@
   &.top-right .tooltip-arrow {
     border-top-color: @tip-background-color;
   }
-  &.right .tooltip-arrow {
+  &.syntax--right .tooltip-arrow {
     border-right-color: @tip-background-color;
   }
-  &.left .tooltip-arrow {
+  &.syntax--left .tooltip-arrow {
     border-left-color: @tip-background-color;
   }
-  &.bottom .tooltip-arrow {
+  &.syntax--bottom .tooltip-arrow {
     border-bottom-color: @tip-background-color;
   }
   &.bottom-left .tooltip-arrow {
